@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header class="sticky-container">
+        <nav class="navbar">
+            <a href="#" class="logo">Logo Marca</a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-label">☰</label>
+            <ul class="menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre-nos.html">Sobre nós</a></li>
+                <li><a href="serviços.html">Serviços</a></li>
+                <li><a href="qualificacoes.html">Qualificações</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="titulos-section">
+        <h1 class="titulos">Entre em contato para agendar a sua sessão:</h1>
+        <form action="/submit" method="post">
+            <label class="contato" for="nome">Nome completo:</label>
+            <input type="text" name="nome" id="nome">
+
+            <label class="contato" for="email">E-mail:</label>
+            <input type="email" id="email">
+
+            <label class="contato" for="genero">Gênero:</label>
+            <select>
+                <option value="">Selecionar</option>
+                <option value="">Homem</option>
+                <option value="">Mulher</option>
+                <option value="">Outro</option>
+                <option value="">Prefiro não informar</option>
+            </select>
+
+            <label class="contato" for="mensagem">Mensagem:</label>
+            <textarea type="mensagem" id="mensagem"></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+        <div>
+            <a class="whatsapp" href=" https://wa.me/+5513981851329">Você também pode entrar em contato no
+                Whatsapp!</a>
+        </div>
+    </section>
+    <footer>© 2024 - Gabriela Souza - Todos os diretios reservados.</footer>
+
+</body>
+
+</html>
